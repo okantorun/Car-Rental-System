@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    interface IUserService
+    public interface IUserService
     {
         IDataResult<List<User>> GetAll();
         IResult Add(User user);
