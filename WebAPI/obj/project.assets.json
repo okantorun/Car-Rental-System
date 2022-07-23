@@ -2177,6 +2177,7 @@
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
+          "FluentValidation": "11.1.0",
           "FluentValidation.ValidatorAttribute": "8.6.1"
         },
         "compile": {
@@ -2190,6 +2191,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Autofac": "6.4.0",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Autofac.Extras.DynamicProxy": "6.0.1",
           "FluentValidation": "11.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -7597,9 +7601,10 @@
   },
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for FluentValidation. Install/reference FluentValidation 11.1.0 directly to project WebAPI to resolve this issue. \r\n WebAPI -> Core -> FluentValidation (>= 11.1.0) \r\n WebAPI -> Business -> FluentValidation.ValidatorAttribute 8.6.1 -> FluentValidation (>= 8.6.1 && < 9.0.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: FluentValidation.ValidatorAttribute 8.6.1 requires FluentValidation (>= 8.6.1 && < 9.0.0) but version FluentValidation 11.1.0 was resolved.",
       "libraryId": "FluentValidation",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

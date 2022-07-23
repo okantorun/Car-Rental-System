@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "EAtQFoWM3E2NFpM4k90/3U4uL7X32bfNarFUJ6xpPmb3BnS72bvdU1W5e2ZEeGc3Fgnd408QZYHtcHyL+UenMg==",
-  "success": false,
+  "dgSpecHash": "myDVdx0kJaA5MxngG8Bd3tc7Ud1Jk2/IkPPOOMk70vVlLRE9PrwYt3ST4/PzBKA1EgllkBqXSNJE9sKO2m2ERg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\okant\\Desktop\\C#\\RentACar\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okant\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
@@ -144,9 +144,10 @@
   ],
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for FluentValidation. Install/reference FluentValidation 11.1.0 directly to project WebAPI to resolve this issue. \r\n WebAPI -> Core -> FluentValidation (>= 11.1.0) \r\n WebAPI -> Business -> FluentValidation.ValidatorAttribute 8.6.1 -> FluentValidation (>= 8.6.1 && < 9.0.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: FluentValidation.ValidatorAttribute 8.6.1 requires FluentValidation (>= 8.6.1 && < 9.0.0) but version FluentValidation 11.1.0 was resolved.",
       "libraryId": "FluentValidation",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

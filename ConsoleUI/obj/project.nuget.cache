@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZSwy2YWis/iH6DLzL9a+dvUTKmTyx6VNt508/M8P/3ICEJyughh5gc+6IbeNRuzd4TzMWI5OF8DWn9kBCaR32g==",
-  "success": false,
+  "dgSpecHash": "ORH/3+dQoK3DgHY5W0/oHizNcp+aciCu53J+HEtyt2c/64mHqP/QWd8WmgO9T+8frMLfUO8hiPMT3DkGibtloQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\okant\\Desktop\\C#\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okant\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\okant\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
@@ -24,7 +25,7 @@
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.11\\microsoft.extensions.configuration.abstractions.3.1.11.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.11\\microsoft.extensions.configuration.binder.3.1.11.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.11\\microsoft.extensions.dependencyinjection.3.1.11.nupkg.sha512",
-    "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.11\\microsoft.extensions.dependencyinjection.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.logging\\3.1.11\\microsoft.extensions.logging.3.1.11.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.11\\microsoft.extensions.logging.abstractions.3.1.11.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.extensions.options\\3.1.11\\microsoft.extensions.options.3.1.11.nupkg.sha512",
@@ -143,9 +144,10 @@
   ],
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for FluentValidation. Install/reference FluentValidation 11.1.0 directly to project ConsoleUI to resolve this issue. \r\n ConsoleUI -> Entities -> Core -> FluentValidation (>= 11.1.0) \r\n ConsoleUI -> Business -> FluentValidation.ValidatorAttribute 8.6.1 -> FluentValidation (>= 8.6.1 && < 9.0.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: FluentValidation.ValidatorAttribute 8.6.1 requires FluentValidation (>= 8.6.1 && < 9.0.0) but version FluentValidation 11.1.0 was resolved.",
       "libraryId": "FluentValidation",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
