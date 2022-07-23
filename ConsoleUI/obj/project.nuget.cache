@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "niyKQlSQzGxZ5uIJDyzgNf9iO/ZRxbJpy5yGVhpSPXDKoXtF1rTFMbCCEQo1EW4yRXtZUgdIqg+TehDnatyjvA==",
+  "dgSpecHash": "hPfEe4R9UJ0AGK4IHpTPZnbORgahEYXLQnhk4dBo2jZUhWki1sr/bo8GvUPIfsbOupJ3p1P5r6D+eD4hNbO8jQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\okant\\Desktop\\C#\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okant\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\okant\\.nuget\\packages\\fluentvalidation\\8.6.1\\fluentvalidation.8.6.1.nupkg.sha512",
+    "C:\\Users\\okant\\.nuget\\packages\\fluentvalidation.validatorattribute\\8.6.1\\fluentvalidation.validatorattribute.8.6.1.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\okant\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

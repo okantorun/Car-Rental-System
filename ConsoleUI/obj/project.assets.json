@@ -48,6 +48,30 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
+      "FluentValidation/8.6.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.ValidatorAttribute/8.6.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "[8.6.1, 9.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.ValidatorAttribute.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.ValidatorAttribute.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -2139,7 +2163,8 @@
           "Autofac": "6.4.0",
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation.ValidatorAttribute": "8.6.1"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -2252,6 +2277,39 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "FluentValidation/8.6.1": {
+      "sha512": "g0xw/YCVgJ1IYpBgKF9iuci/Arf6Dsq9H/WeeT9zaBpjrEA+Cr2GjWXHu1F0DKqVzp4J4hta4gGrRt6H4aESqQ==",
+      "type": "package",
+      "path": "fluentvalidation/8.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.8.6.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.ValidatorAttribute/8.6.1": {
+      "sha512": "OJOMPvZIeSD/X6TBNFSRhn5j/kvsBIuyn9k7coSgUoaillH4QXJn+LyPp8T9aSbZt3r+VIvzhkg782QeaHNnAQ==",
+      "type": "package",
+      "path": "fluentvalidation.validatorattribute/8.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.validatorattribute.8.6.1.nupkg.sha512",
+        "fluentvalidation.validatorattribute.nuspec",
+        "lib/net45/FluentValidation.ValidatorAttribute.dll",
+        "lib/netstandard1.1/FluentValidation.ValidatorAttribute.dll",
+        "lib/netstandard2.0/FluentValidation.ValidatorAttribute.dll"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
