@@ -22,3 +22,6 @@ C:\Users\okant\Desktop\C#\RentACar\Entities\obj\Debug\netcoreapp3.1\Entities.csp
 C:\Users\okant\Desktop\C#\RentACar\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
 C:\Users\okant\Desktop\C#\RentACar\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\okant\Desktop\C#\RentACar\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\okant\Desktop\C#\RentACar\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\okant\Desktop\C#\RentACar\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\okant\Desktop\C#\RentACar\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache

@@ -14,7 +14,7 @@ namespace ConsoleApp
         {
             GetAllCar();
 
-            // Add();
+             //Add();
 
             //GetCarDetails();
 
@@ -28,7 +28,7 @@ namespace ConsoleApp
 
             foreach (var car in result.Data)
             {
-                Console.WriteLine(car.Id + " " + car.DailyPrice);
+                Console.WriteLine(car.CarId + " " + car.DailyPrice);
             }
 
             Console.WriteLine(Messages.CarListed);
@@ -39,8 +39,8 @@ namespace ConsoleApp
             CarManager carManager = new CarManager(new EfCarDal());
             List<Car> cars = new List<Car>
             {
-                new Car {BrandId = 2, ColorId = 2, DailyPrice = 600, Description = "Manuel 7 kişi"},
-                new Car {BrandId = 1, ColorId = 3, DailyPrice = 0, Description = "Otomatik 1 kişi", ModelYear = 1990}
+                new Car {CarId=1,CarName="Golf",BrandId = 2, ColorId = 2, DailyPrice = 600, Description = "Manuel 7 kişi", ModelYear = 1980,MinFindeksScore=0},
+                new Car {CarId=2,CarName="Kia",BrandId = 1, ColorId = 3, DailyPrice = 0, Description = "Otomatik 1 kişi", ModelYear = 1990,MinFindeksScore=0}
             };
             carManager.Add(cars[1]);
         }
@@ -70,7 +70,7 @@ namespace ConsoleApp
             var result = carManager.GetAll();
             foreach (var car in result.Data)
             {
-                Console.WriteLine(car.DailyPrice + " " + car.Description);
+                Console.WriteLine(car.CarName + " " + car.Description);
             }
         }
     }

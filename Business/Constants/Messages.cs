@@ -17,5 +17,6 @@ namespace Business.Constants
         public static string GeneralDelete = "Silme başarılı.";
         public static string CarHired = "Araba kiralama başarılı";
         public static string CarNotDelivered = "Araba kiralama başarısız.";
+        public static string CarImageCountExceeded = "Araba resim sayısı limiti aşıldı";
     }
 }

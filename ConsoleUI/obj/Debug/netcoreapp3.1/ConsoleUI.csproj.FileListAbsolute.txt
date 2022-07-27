@@ -122,3 +122,9 @@ C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.c
 C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\okant\Desktop\C#\RentACar\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

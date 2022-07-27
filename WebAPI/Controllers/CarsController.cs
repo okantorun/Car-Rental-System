@@ -27,7 +27,11 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result);
+            else
+            {
+                return BadRequest(result);
+            }
+            
         }
         [HttpGet("getcarsbycolorid")]
         public IActionResult GetCarsByColorId(int id)

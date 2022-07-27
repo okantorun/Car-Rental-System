@@ -30,3 +30,6 @@ C:\Users\okant\Desktop\C#\RentACar\Business\obj\Debug\netcoreapp3.1\Business.csp
 C:\Users\okant\Desktop\C#\RentACar\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
 C:\Users\okant\Desktop\C#\RentACar\Business\obj\Debug\netcoreapp3.1\Business.dll
 C:\Users\okant\Desktop\C#\RentACar\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\okant\Desktop\C#\RentACar\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\okant\Desktop\C#\RentACar\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\okant\Desktop\C#\RentACar\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache

@@ -7,3 +7,15 @@ C:\Users\okant\Desktop\C#\ReCapProject\ReCapProject\Core\obj\Debug\netcoreapp3.1
 C:\Users\okant\Desktop\C#\ReCapProject\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\okant\Desktop\C#\ReCapProject\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\okant\Desktop\C#\ReCapProject\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\okant\Desktop\C#\RentACar\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\okant\Desktop\C#\RentACar\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\okant\Desktop\C#\RentACar\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\okant\Desktop\C#\RentACar\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\okant\Desktop\C#\RentACar\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\okant\Desktop\C#\RentACar\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
