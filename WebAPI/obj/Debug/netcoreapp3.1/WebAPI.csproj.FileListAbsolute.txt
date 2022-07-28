@@ -72,3 +72,6 @@ C:\Users\okant\Desktop\C#\RentACar\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.
 C:\Users\okant\Desktop\C#\RentACar\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\okant\Desktop\C#\RentACar\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\okant\Desktop\C#\RentACar\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
