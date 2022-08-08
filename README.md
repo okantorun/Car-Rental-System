@@ -12,9 +12,9 @@ The project was developed in C# in accordance with the multi-layered architectur
 ## Used Technologies and Techniques
 - Restful API
   - Postman(tested in this environment)
-- Interceptor
 - IoC
   - Autofac
+- Interceptor
 - AOP (Aspect Oriented Programming)
 - JWT Authentication
 - Generic Repository Design Pattern
