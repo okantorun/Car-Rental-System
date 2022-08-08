@@ -10,7 +10,9 @@ The project was developed in C# in accordance with the multi-layered architectur
 <b> 6-Service Layer (Web API):</b> It is the part where the services that enable the Front-End part and other platforms to communicate with the program and perform operations are written.<br>
 
 ## Used Technologies and Techniques
+- MSSQL
 - Entity Framework
+- LINQ
 - Restful API
   - Postman(tested in this environment)
 - IoC
@@ -33,6 +35,7 @@ The project was developed in C# in accordance with the multi-layered architectur
 - Error Handling
 - Validation Error Details
 - Hashing
+- Salting
 - Disposable Pattern
 - Adapter Pattern
 
