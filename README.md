@@ -9,31 +9,31 @@ The project was developed in C# in accordance with the multi-layered architectur
 <b> 5-Console-UI Layer:</b> It is the layer that appears to the user, that the user interacts with and sends commands to the program.<br>
 <b> 6-Service Layer (Web API):</b> It is the part where the services that enable the Front-End part and other platforms to communicate with the program and perform operations are written.<br>
 
-## Used Technologies
+## Used Technologies and Techniques
 - Restful API
-- Result Types
+  - Postman(tested in this environment)
 - Interceptor
-- Autofac
+- IoC
+  - Autofac
 - AOP (Aspect Oriented Programming)
-- Caching
-- Performance
-- Transaction
-- Validation
-- Fluent Validation
-- Cache Management
 - JWT Authentication
 - Generic Repository Design Pattern
 - Cross Cutting Concerns
-- Caching
-- Validation
+  - Validation(Fluent Validation)
+  - Security
+  - Caching
+  - Transaction
+  - Performance
 - Extensions
 - Claim
 - Exception Middleware
 - Service Collection
+- Result Types
 - Error Handling
 - Validation Error Details
 - Hashing
 - Disposable Pattern
+- Adapter Pattern
 
 ## Required Packages for Back-End
 
