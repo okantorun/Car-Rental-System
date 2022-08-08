@@ -16,7 +16,6 @@ The project was developed in C# in accordance with the multi-layered architectur
   - Autofac
 - Interceptor
 - AOP (Aspect Oriented Programming)
-- JWT Authentication
 - Generic Repository Design Pattern
 - Cross Cutting Concerns
   - Validation(Fluent Validation)
@@ -24,8 +23,9 @@ The project was developed in C# in accordance with the multi-layered architectur
   - Caching
   - Transaction
   - Performance
-- Extensions
+- JWT Authentication
 - Claim
+- Extensions
 - Exception Middleware
 - Service Collection
 - Result Types
