@@ -75,3 +75,4 @@ C:\Users\okant\Desktop\C#\RentACar\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genrunt
 C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\okant\Desktop\C#\RentACar\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
