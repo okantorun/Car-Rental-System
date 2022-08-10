@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Overview](#overview)
-* [Multitier Architecture](#multitier-architecture)
+* [Multi-layered Architecture](#multi-layered-architecture)
 * [Layers](#layers)
 * [Used Technologies and Techniques](#used-technologies-and-techniques)
 * [Required Packages for Back-End](#required-packages-for-back-end)
@@ -10,7 +10,7 @@
 ## Overview
 The project was developed in C# in accordance with the multi-layered architecture principle. OOP and AOP techniques were used using SOLID principles. Entity Framework was used as the ORM and CRUD operations were performed with it. MSSQL Localdb was used for database in the project.In addition, a Web API has been coded in service layer to communicate with the Front-End side of the project and other applications. I would like to tell you about the main features of the project.
 
-## Multitier Architecture
+## Multi-layered Architecture 
 
 <p align="left">
   <img width="600" height="500" src="https://cemelma.files.wordpress.com/2015/06/sa-21.png">
