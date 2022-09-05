@@ -2,11 +2,9 @@
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
@@ -24,7 +22,9 @@ namespace DataAccess.Concrete.EntityFramework
                              on c.ColorId equals col.ColorId
                              select new CarDetailsDto
                              {
+                                 CarId = c.CarId,
                                  ModelYear = c.ModelYear,
+                                 CarName = c.CarName,
                                  BrandName = b.BrandName,
                                  ColorName = col.ColorName,
                                  DailyPrice = (int)c.DailyPrice,
