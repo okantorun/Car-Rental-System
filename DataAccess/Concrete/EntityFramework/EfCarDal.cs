@@ -29,6 +29,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  BrandName = b.BrandName,
                                  ColorName = col.ColorName,
                                  DailyPrice = (int)c.DailyPrice,
+                                 Description = c.Description,
                                  ImagePath = (from img in context.CarImages
                                               where c.CarId == img.CarId
                                               select img.ImagePath).ToList()
